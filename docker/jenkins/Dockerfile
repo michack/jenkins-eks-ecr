@@ -28,7 +28,7 @@ RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 6657DBE0CC86BB64 &&
 
 RUN apt-get clean
 
-ADD https://raw.githubusercontent.com/michack/jenkins-eks-ecr/docker/jenkins/entrypoint.sh /usr/local/bin/entrypoint.sh
+ADD https://raw.githubusercontent.com/michack/jenkins-eks-ecr/master/docker/jenkins/entrypoint.sh /usr/local/bin/entrypoint.sh
 RUN chmod 755 /usr/local/bin/entrypoint.sh
 
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
