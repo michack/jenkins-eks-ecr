@@ -8,4 +8,4 @@ default_tags = {
 
 bucket_name = BUCKET_NAME
 
-jenkins_docker_url = "https://github.com/michack/jenkins-ecr-eks.git#master:docker/jenkins"
+jenkins_docker_url = "https://github.com/michack/jenkins-eks-ecr.git#master:docker/jenkins"
